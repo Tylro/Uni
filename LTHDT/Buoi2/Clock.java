@@ -13,27 +13,33 @@ public Clock(int h, int m, int s) {
 	gio = h; phut = m; giay = s; 
 }
 public void nhap() {
-	Scanner kb = new Scanner(System.out);
+	Scanner kb = new Scanner(System.in);
 	System.out.print("Nhap gio:");
-		gio = kb.nextInt(gio);
+		gio = kb.nextInt();
 	System.out.print("Nhap phut:");
-		gio = kb.nextInt(phut);
+		phut = kb.nextInt();
 	System.out.print("Nhap giay:");
-		gio = kb.nextInt(giay);
+		giay = kb.nextInt();
 }
+
 public void hienThi() {
-	System.out.print(gio + ":" + phut + ":" + giay);
+	System.out.println(gio + ":" + phut + ":" + giay);
 }
 public void lamTron() {
-	temp = h * 3600 + m * 60 + s;
+	int temp = gio * 3600 + phut * 60 + giay;
 	gio = temp / 3600;
 	phut = (temp % 3600) / 60;
 	giay = (temp % 3600) % 60;
+	if (gio >=24)
+		gio = gio- 24;
 }
 public Clock congPhut(int n) {
-	temp = n * 60; 
-	giay = n + giay;
-	return lamTron(gio, phut, giay);
+	int temp = n * 60; 
+	gio = gio + (temp / 3600);
+	phut = phut + ((temp % 3600) / 60);
+	giay = giay + ((temp % 3600) % 60);
+	
+	return new Clock(gio, phut, giay);
 }
 public int giaTriGio() {
 	return gio;
