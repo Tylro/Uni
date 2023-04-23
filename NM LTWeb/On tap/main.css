@@ -1,31 +1,52 @@
 html {
-    font: 32px Arial,Helvetica, sans-serif;
+    font: 32px Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     background-color: rgb(231, 231, 227);
 }
-header{
+
+header {
     width: 100%;
     height: 62px;
 }
-ul{
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-#login{
+
+#login {
     float: right;
 }
+
 li {
-    float:left;
+    float: left;
 }
+
 #header-img {
     width: 100%;
     height: 62px;
 }
-.nav-item {
+
+.trai {
     display: block;
+    float: left;
     width: 100px;
+    height: auto;
     background-color: #FFCCFF;
+    text-align: justify;
+    margin-right: 30px;
+    padding: 8px;
+}
+
+.phai {
+    display: block;
+    float: right;
+    width: 100px;
+    height: auto;
+    background-color: #FFCCFF;
+    text-align: justify;
+    margin-left: 50px;
     padding: 8px;
 }
 
