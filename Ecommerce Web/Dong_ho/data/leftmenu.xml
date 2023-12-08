@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LeftMenu>
+	<Option>
+		<Name>Casio</Name>
+		<Link>products.php?type=Casio</Link>
+	</Option>
+	<Option>
+		<Name>Orient</Name>
+		<Link>products.php?type=Orient</Link>
+	</Option>
+	<Option>
+		<Name>G-Shock</Name>
+		<Link>products.php?type=G-Shock</Link>
+	</Option>
+	<Option>
+		<Name>SKMEI</Name>
+		<Link>products.php?type=SKMEI</Link>
+	</Option>
+	<Option>
+		<Name>Citizens</Name>
+		<Link>products.php?type=Citizens</Link>
+	</Option>
+	<Option>
+		<Name>MVW</Name>
+		<Link>products.php?type=MVW</Link>
+	</Option>
+</LeftMenu>

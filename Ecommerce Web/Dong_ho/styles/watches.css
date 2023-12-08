@@ -1,0 +1,121 @@
+.divWatchesPicture {
+    width: 280px;
+    height: 460px;
+    background-color: rgba(95, 202, 63, 0.81);
+    padding: 10px 10px 10px 10px;
+    margin-top: 15px;
+
+    float: left;
+}
+
+.divWatchesRight {
+    margin-top: 15px;
+    width: 420px;
+    float: left;
+    padding: 0px 10px 10px 20px;
+
+    font-size: 15px;
+}
+
+.divWatchesDetails {
+    width: 720px;
+    
+    clear: both;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    margin-top: 10px;
+    
+    border: #6E6C64 1px solid;
+    vertical-align: top;
+}
+
+.divProdutDetailTitle {
+    width: 710px;
+    height: auto;
+    
+    background-color: #000;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    color: goldenrod;
+    
+    padding-left: 10px;
+    padding-right: 0xp;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pProductDetailTitle {
+    font-size: 16px;
+    font-weight: bold;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.divProductDetails {
+    clear: both;
+    padding: 5px 10px 10px 20px;
+}
+
+img.imgWatchesPicture {
+    width: 280px;
+    height: 460px;
+}
+
+p#pProductName {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.pWatchesBasicInfo {
+    font-size: 15px;
+    line-height: 12px;
+}
+
+.spanProductPriceLabel {
+    color: #FFF;
+    font-size: 18px;
+    /*font-weight: bold;*/
+}
+
+.spanProductPrice {
+    color: darkred;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.divAddCart {
+    border-top: #6E6C64 thin solid;
+    border-bottom: #6E6C64 thin solid;
+    border-left: none;
+    border-right: none;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+pre {
+    line-height: 14px;
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;
+}
+
+#inputQuantity {
+    height: 24px;
+    width: 80px;
+    
+}
+
+#btnSubmitAddCart {
+    height: 30px;
+    width: 100px;
+}

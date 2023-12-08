@@ -1,0 +1,221 @@
+@charset "utf-8";
+body {
+    font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+ul, ol, dl {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+        line-height: 25px;
+
+}
+a img {
+    border: none;
+}
+a:link {
+    color: #42413C;
+    text-decoration: none; 
+}
+a:visited {
+    color: #6E6C64;
+    text-decoration: none;
+}
+a:hover, a:active, a:focus { 
+    text-decoration: none;
+}
+
+header, section, footer, aside, article, figure {
+    display: block;
+}
+
+header {
+    background-color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    height: 90px;
+    position: relative;
+}
+.divGuestCart {
+    float: right;
+    width: 320px;
+    /*display: block;*/
+    padding-top: 30px;
+    /*padding-bottom: 15px;*/
+    font-size: 14px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+}
+.divGuestCart a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+.divGuestCart a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+.divGuestCart a:hover, a:active, a:focus {
+    color: #DAA520;
+    text-decoration: none;
+}
+
+.divContainer {
+    width: 960px;
+    background-color: #FFFFFF;
+    margin: 0 auto; 
+}
+
+.divTopMenu {
+    background-color: #000; /*#ADB96E;*/
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+nav ul#ulTopMenu {
+    list-style: none;
+    background-color: #000; /*#ADB96E;*/
+    border-top: 0px solid #666; 
+    margin-bottom: 0px; 
+}
+nav ul#ulTopMenu li {
+    display: inline;
+    border-bottom: 0px solid #666;
+    color: #FFF;
+}
+nav ul#ulTopMenu li a, nav ul#ulTopMenu li a:visited { 
+    padding: 10px;
+    display: inline; 
+    /*width: 160px;*/ 
+    text-decoration: none;
+    background-color: transparent;
+    color: #FFF;
+}
+nav ul#ulTopMenu li a:hover, nav ul#ulTopMenu li a:active, nav ul#ulTopMenu li a:focus { 
+    background-color: transparent;
+    color: #DAA520;
+}
+
+.divWrapper_1 {
+    background-color: green;
+    float: left;
+    position: relative;
+    right: 780px;
+}
+
+.divWrapper_2 {
+    overflow: hidden;
+    background-color: silver;
+    float: right;
+    position: relative;
+    margin-bottom: 10px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.divLeftMenu {
+    float: left;
+    width: 180px;
+    background-color: rgb(21, 190, 21); 
+    padding-bottom: 10px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    position: relative;
+    vertical-align: top;
+    left: 780px;
+    right: 0px;
+    top: 0px;
+}
+nav ul#ulLeftMenu {
+    list-style: none;
+    border-top: 1px solid #dfdada; 
+    margin-bottom: 15px; 
+    float:right;
+}
+nav ul#ulLeftMenu li {
+    border-bottom: 1px solid #c2c0c0;
+    color: #FFF;
+}
+nav ul#ulLeftMenu li a, nav ul#ulLeftMenu li a:visited { 
+    padding: 5px 5px 5px 15px;
+    display: block; 
+    width: 160px; 
+    text-decoration: none;
+    color: #FFF;
+}
+nav ul#ulLeftMenu li a:hover, nav ul#ulLeftMenu li a:active, nav ul#ulLeftMenu li a:focus { 
+    /*background-color: #ADB96E;*/
+    color: #DAA520;
+}
+
+.divMain {
+    float: left;
+    width: 760px;
+    /*background-color: silver;*/
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    position: relative;
+    left: 780px;
+}
+.articleContent {
+    padding: 00px 0;
+    width: 760px;
+    float: right;
+    line-height: 25px;
+}
+.pPageTitle {
+    padding-left: 0px;
+    padding-top: 0px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.spanRequiredField {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    vertical-align: super;
+}
+
+a.aContent, a.aContent:visited, a.aContent:hover, a.aContent:active, a.aContent:focus {
+    font-weight: bold;          
+    color: darkred;
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 12px;
+    text-align: left;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #000;
+    color: #FFF;
+    position: relative;
+    clear: both;
+}
+.spanFooterTitle {
+    color: #DAA520;
+}
+
+.pResultLogin {
+    color: red;
+    font-style: italic;
+}
+

@@ -1,0 +1,8 @@
+.tableRegister td {
+    border-spacing: 10px;
+}
+
+.pResultLogin {
+    color: red;
+    font-style: italic;
+}

@@ -1,0 +1,41 @@
+.tableCart {
+    border-color: goldenrod;
+    border-width: thin;
+    
+    font-size: 12px;
+}
+.tableCart tr#trTop_TableCart {
+    background: #000;
+    color: goldenrod;
+}
+
+.tableCart tr#trBottom_TableCart {
+    background: #000;
+    color: goldenrod;
+    /*border: none;*/
+}
+
+.tableCart tr#trBottom_TableCart td {
+    border: none;
+}
+
+.tableCart td {
+    border-color: goldenrod;
+    padding-left: 10px;
+}
+
+.tableCart th {
+    text-align: center;
+    font-size: 14px;
+}
+
+.pResultLogin {
+    color: red;
+    font-style: italic;
+}
+
+.spanProductPrice {
+    color: darkred;
+    font-size: 12px;
+    font-weight: bold;
+}
